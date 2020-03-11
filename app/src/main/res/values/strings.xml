@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DownloadSample</string>
+    <string name="error_permission">Error in Permission</string>
+    <string name="download">Downloading...</string>
+    <string name="complete">Download Completed!</string>
+    <string name="fail">Download failed!</string>
+    <string name="file">File downloaded!</string>
+</resources>
