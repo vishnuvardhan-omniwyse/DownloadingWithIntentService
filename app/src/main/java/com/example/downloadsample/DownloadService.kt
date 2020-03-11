@@ -36,6 +36,7 @@ class DownloadService : IntentService("DownloadService") {
                 getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
             val channelId = "my_channel_01"
 
+            // channel is required for only versions after oreo
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 val name: CharSequence = "my_channel"
                 val description = "This is my channel"
